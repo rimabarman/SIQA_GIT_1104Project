@@ -1,12 +1,6 @@
 version: "1.0"
 projectName: SIQA_GIT_1104Project
 runtimes:
-- runtimeAlias: Cloud Designtime
-  assets:
-  - name: fld_156851932_stage00.projects.flb0edadaf18e74526873264e2b35d2b48.integrations:conntest
-    type: flow
-    stepId: /0
-    reference: fld_156851932_stage00.projects.flb0edadaf18e74526873264e2b35d2b48.WmPackageServiceProvider.GB_1:readGlobalvariable
 - runtimeAlias: SIQA_ERT_1104_Single
   assets:
   - name: Test_TimeDelay
@@ -14,13 +8,17 @@ runtimes:
     uid: flf022fac305bf45ae9228dd92a7448999
     stepId: a0
     reference: SIQA_TimeoutTest:delayfor180Sec
+  - name: fld_156851932_stage00.projects.flb0edadaf18e74526873264e2b35d2b48.integrations:conntest
+    type: flow
+    stepId: /0
+    reference: fld_156851932_stage00.projects.flb0edadaf18e74526873264e2b35d2b48.WmPackageServiceProvider.GB_1:readGlobalvariable
+  - name: fld_156851932_stage00.projects.flb0edadaf18e74526873264e2b35d2b48.integrations:conntest
+    type: flow
+    stepId: /2
+    reference: fld_156851932_stage00.projects.flb0edadaf18e74526873264e2b35d2b48.WmPackageServiceProvider.SIQAJDBCAdapterTests.adapterServices:getData
 - runtimeAlias: SIQAMCSPStageTest3009
   assets:
   - name: fld_156851932_stage00.projects.flb0edadaf18e74526873264e2b35d2b48.integrations:conntest
     type: flow
     stepId: /1
     reference: fld_156851932_stage00.projects.flb0edadaf18e74526873264e2b35d2b48.WmPackageServiceProvider.SIQACloudStreamsTests:connetorOperations
-  - name: fld_156851932_stage00.projects.flb0edadaf18e74526873264e2b35d2b48.integrations:conntest
-    type: flow
-    stepId: /2
-    reference: fld_156851932_stage00.projects.flb0edadaf18e74526873264e2b35d2b48.WmPackageServiceProvider.SIQAJDBCAdapterTests.adapterServices:getData
