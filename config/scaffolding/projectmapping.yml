@@ -1,10 +1,10 @@
 version: "1.0"
 projectName: SIQA_GIT_1104Project
 runtimes:
-- runtimeAlias: SIQA_ERT_1104_Single
+- runtimeAlias: Cloud Designtime
   assets:
   - name: Test_TimeDelay
     type: workflow
     uid: flf022fac305bf45ae9228dd92a7448999
     stepId: a0
-    reference: SIQA_TimeoutTest:delayfor2Sec
+    reference: SIQA_TimeoutTest:delayfor180Sec
