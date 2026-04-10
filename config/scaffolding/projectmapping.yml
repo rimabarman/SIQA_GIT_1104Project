@@ -16,8 +16,6 @@ runtimes:
     type: flow
     stepId: /2
     reference: fld_156851932_stage00.projects.flb0edadaf18e74526873264e2b35d2b48.WmPackageServiceProvider.SIQAJDBCAdapterTests.adapterServices:getData
-- runtimeAlias: SIQAMCSPStageTest3009
-  assets:
   - name: fld_156851932_stage00.projects.flb0edadaf18e74526873264e2b35d2b48.integrations:conntest
     type: flow
     stepId: /1
